@@ -1,6 +1,6 @@
-h1 {
-  color: blue;
-  background-color: brown;
+@font-face {
+  font-family: fun;
+  src: url(./Comic\ Roasting.otf);
 }
 
 * {
@@ -14,3 +14,28 @@ body {
   height: 100%;
   width: 100%;
 }
+
+h1 {
+  color: rgb(234, 234, 242);
+  background: linear-gradient(to right,blue,yellow);
+  font-size: 50px;
+  font-family: fun;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+div{
+  height: 300px;
+  width: 300px;
+  /* background: linear-gradient(to right bottom,yellow,red,black); */
+  /* background: radial-gradient(red,yellow); */
+  /* background: conic-gradient(blue,yellow,blue); */
+  background-image: url(https://images.pexels.com/photos/39360592/pexels-photo-39360592.jpeg);
+  background-size: cover;
+}
+
+
+
