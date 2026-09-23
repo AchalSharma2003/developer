@@ -10,9 +10,9 @@
     <table border="2">
       <tbody>
         <thead>
-            <th>name</th>
-            <th>quantity</th>
-            <th>price</th>
+          <th>name</th>
+          <th>quantity</th>
+          <th>price</th>
           <tr>
             <td>lays</td>
             <td>40</td>
@@ -31,5 +31,174 @@
         </thead>
       </tbody>
     </table>
+
+    <hr />
+
+    <form action="">
+      <fieldset>
+        <legend>personal details</legend>
+
+        <label for="name">name</label><br />
+        <input
+          id="name"
+          type="text"
+          placeholder="enter your name"
+        /><br /><br />
+
+        <label for="email">email</label><br />
+        <input
+          id="email"
+          type="text"
+          placeholder="enter your email"
+        /><br /><br />
+
+        <label for="password">password</label><br />
+        <input
+          id="password"
+          type="password"
+          placeholder="enter your password"
+        />
+      </fieldset>
+      <label for="name">name</label>
+      <input id="name" type="text" placeholder="enter your name" />
+      <label for="code"> language</label>
+
+      <select name="" id="code">
+        <optgroup label="frontend">
+          <option value="">html</option>
+          <option value="">css</option>
+          <option value="">js</option>
+        </optgroup>
+
+        <optgroup label="backend">
+          <option value="">Node.js</option>
+          <option value="">Express.js</option>
+          <option value="">MongoDB</option>
+        </optgroup>
+      </select>
+
+      <br /><br />
+      <label for="reviews">reviews</label>
+      <textarea id="reviews" rows="4"></textarea>
+
+      <input type="color" />
+      <input type="range" />
+
+      <button>submit form</button>
+    </form>
+
+    <hr />
+
+    <h1>student registration form</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>personal information</legend>
+
+        <label for="name1">name</label><br />
+        <input
+          id="name1"
+          type="text"
+          placeholder="enter your name"
+        /><br /><br />
+
+        <label for="email1">email</label><br />
+        <input
+          id="email1"
+          type="text"
+          placeholder="enter your email"
+        /><br /><br />
+
+        <label for="phone1">Phone no.</label><br />
+        <input
+          id="phone1"
+          type="text"
+          placeholder="enter your phone"
+        /><br /><br />
+      </fieldset>
+
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>address information</legend>
+
+        <label for="address line 1">Address line 1</label>
+        <textarea id="address line 1"></textarea>
+
+        <label for="city">City</label>
+        <select id="city">
+          <option value="">bhopal</option>
+          <option value="">delhi</option>
+          <option value="">gwalior</option>
+          <option value="">noida</option>
+          <option value="">pune</option>
+        </select>
+        <br />
+
+        <label for="pincode">pincode</label>
+        <input id="pincode" type="number" />
+
+        <label for="country">Country :</label>
+        <input type="checkbox" name="" id="country" />india
+      </fieldset>
+      <br />
+      <br />
+
+      <label for="courses">Courses</label>
+      <select name="" id="courses">
+        <optgroup label="frontend">
+          <option value="">html</option>
+          <option value="">css</option>
+          <option value="">js</option>
+        </optgroup>
+
+        <optgroup label="backend">
+          <option value="">html</option>
+          <option value="">css</option>
+          <option value="">js</option>
+        </optgroup>
+      </select>
+    </form>
+    <hr />
+    <h1>semantic tags</h1>
+
+    <details>
+      <summary>open me</summary>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+        libero, eum vero fugit praesentium, esse quos tenetur repudiandae
+        blanditiis illo corporis quisquam, optio id fuga expedita quibusdam
+        dolorem. Aspernatur quasi eaque facilis dolorum corrupti pariatur beatae
+        voluptatum. In, suscipit necessitatibus!
+      </p>
+    </details>
+    <h1 contenteditable="true">hello</h1>
+    <h1 draggable="true">hi</h1>
+
+    <header>
+      <h1>header</h1>
+    </header>
+
+    <main>
+      <section>
+        <h1>form</h1>
+        <form action=""></form>
+      </section>
+
+      <aside>
+        <h3>recent tabs</h3>
+        <p>my list</p>
+      </aside>
+
+      <article>
+        <h1>this is public reviews</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, ut.</p>
+      </article>
+    </main>
+
+    <footer>
+      <h4>footer</h4>
+    </footer>
   </body>
 </html>
