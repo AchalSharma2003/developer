@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 300px minmax(200px,500px) 400px;
+    grid-template-rows: 50% 50%;
+}
+
+.box{
+    background-color: rgb(239, 64, 99);
+    border: 2px solid black;
+} */
+
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+    "header header"
+    "aside section"
+    "footer footer"
+    ;
+    gap: 5px;
+}
+
+.header{
+    background-color: blue;
+    grid-area: header;
+}
+
+.aside{
+    background-color: brown;
+    grid-area: aside;
+}
+
+.section{
+    background-color: burlywood;
+    grid-area: section;
+}
+
+.footer{
+    background-color: cadetblue;
+    grid-area: footer;
+} */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 22fr 20fr 7fr 27fr 22fr;
+    grid-template-rows: 29fr 24fr 7fr 18fr 20fr;
+    grid-template-areas: 
+    "top-left top-center-1 top-center-1 top-center-2 top-right"
+    "top-left center center center top-right"
+    "bottom-left center center center top-right"
+    "bottom-left center center center bottom-right"
+    "bottom-left bottom-center-1 bottom-center-2 bottom-center-2 bottom-right"
+    ;
+    padding: 10px;
+}
+
+.top-left{
+    background-color: white;
+    grid-area: top-left;
+    border-radius: 10px;
+}
+
+.top-center-1{
+    background-color: white;
+    grid-area: top-center-1;
+    border-radius: 10px;
+}
+
+.top-center-2{
+    background-color: white;
+    grid-area: top-center-2;
+    border-radius: 10px;
+}
+
+.top-right{
+    background-color: white;
+    grid-area: top-right;
+    border-radius: 10px;
+}
+
+.center{
+    background-color: white;
+    grid-area: center;
+    border-radius: 10px;
+}
+
+.bottom-left{
+    background-color: white;
+    grid-area: bottom-left;
+    border-radius: 10px;
+}
+
+.bottom-center-1{
+    background-color: white;
+    grid-area: bottom-center-1;
+    border-radius: 10px;
+}
+
+.bottom-center-2{
+    background-color: white;
+    grid-area: bottom-center-2;
+    border-radius: 10px;
+}
+
+.bottom-right{
+    background-color: white;
+    grid-area: bottom-right;
+    border-radius: 10px;
+}
