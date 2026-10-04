@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+h1{
+    color: brown;
+    background-color: rgb(175, 175, 244);
+} */
+
+/* @media (min-width: 400px) and (max-width: 500px) {
+    #box{
+        background-color: crimson;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+    h1{
+        color: azure;
+        background-color: black;
+        border-radius: 50px;
+    }
+} */
+
+/* nav{
+    height: 80px;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.part2{
+    display: flex;
+    gap: 30px;
+}
+
+h5{
+    font-size: 15px;
+    display: none;
+}
+
+img{
+    height: 300px;
+}
+
+@media (max-width:550px) {
+    nav{
+        background-color: blueviolet;
+    }
+
+    h4{
+        display: none;
+    }
+
+    h5{
+        display: block;
+    }
+} */
+
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+    position: absolute;
+    animation-name: multiple;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+} */
+
+/* #box:hover{
+    animation-play-state: paused;
+} */
+
+/* @keyframes anime {
+    from{
+        left: 0;
+        background-color: crimson;
+        rotate: 0;
+        border-radius: 0;
+    }
+    to{
+        left: 60%;
+        background-color: blue;
+        rotate: 360deg;
+        border-radius: 50%;
+    }
+} */
+
+/* @keyframes multiple {
+    0%{
+        left: 0;
+        top: 0;
+        border-radius: 20%;
+        background-color: crimson;
+    }
+    25%{
+        left: 75%;
+        top: 0;
+        border-radius: 35%;
+        background-color: yellow;
+    }
+    50%{
+        left: 75%;
+        top: 50%;
+        border-radius: 50%;
+        background-color: blue;
+    }
+    75%{
+        left: 0;
+        top: 50%;
+        border-radius: 35%;
+        background-color: rgb(28, 240, 13);
+    }
+    100%{
+        left: 0;
+        top: 0;
+        border-radius: 0;
+        background-color: crimson;
+    }
+} */
+
+.parent{
+    background-color: crimson;
+    display: flex;
+    overflow: hidden;
+}
+
+.p1{
+    background-color: aqua;
+    display: flex;
+    animation-name: Achal;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h4{
+    background-color: blue;
+    padding: 15px;
+    font-size: 10px;
+}
+
+
+@keyframes Achal {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
