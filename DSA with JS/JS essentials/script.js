@@ -65,9 +65,9 @@
 
 // Q4 accept and print the answer
 // let age = require('prompt-sync')()
-// age = Number(prompt("enter your name : "));
+// age = Number(prompt("enter your age : "));
 
-// console.log(`good morning ${user}`);
+// console.log(`your age is ${age}`);
 
 //Q5 swap two variables via 3 methods
 
