@@ -1,41 +1,104 @@
 // let,var,const
 
-// let a = 10
-// a =20
-// console.log(a)
 
-// sum of two integers
+// "use strict"; // used for enabling strict javascript mode
 
-// let a1 = 10
-// let a2 = 20
+// const temp = 100;
+// console.log(temp);
 
-// console.log(a1+a2)
+// let tempo = 10;
+// tempo = 90;
+// console.log(tempo);
 
-// realation between integer and string
+// console.log(tempor);
+// var tempor = 10;
 
-// string + string = string(concatenation)
-// string + int = string(concatenation)
-// int + int = int(arithmetic)
+// a = 10;  //it is working without let var const because it here decleared as global varibale "use strict"; for fixing it
+// console.log(a);
 
-// let a = "hello";
-// let b = " world";
-// console.log(a+b)
-
-// let a = "hello";
-// let  b = 10;
-// console.log(a+b)
-
+// Q1 sum of two integers
 // let a = 10;
 // let b = 20;
-// console.log(a+b); 
+// console.log(a+b);
 
+// Q2 relation between integer and string
 
+//string + string = string (concatenation)
+// let a = 'achal';
+// let b = ' sharma';
+// console.log(a+b);
+// console.log(typeof(a+b));
+
+//string + int = string (concatenation)
+// let a = 'achal';
+// let b = 10;
+// console.log(a+b);
+// console.log(typeof(a+b));
+
+//int + int = int (arithmetic operation)
 // let a = 10;
 // let b = 20;
-// console.log("sum of"+ a + "and" + b + "is" + a+b)
-// console.log("sum of "+ a + " and " + b + " is " + (a+b) )
-// console.log(a+b +" is sum of "+ a + " and " + b)
+// console.log(a+b);
+// console.log(typeof(a+b));
 
-// type coersion
+// Q3 sum and message
+// let a = 10;
+// let b = 20;
+// console.log("the sum of "+ a + " and " + b + " is = " + a+b); //here it is giving 1020 as concatenation is being conducted
 
-console.log('1' + 1)
+// console.log("the sum of "+ a + " and " + b + " is = " + (a+b)); //now it works perfectly as brackets are given
+
+// console.log(a + b + " is the sum of "+ a + " and " + b ); this also runs
+
+// type coercion
+
+// console.log('1' + 1); // here concatenation is getting implemented and gives a string 11 as + is the only operator that can do 2 operations concat and addition
+// console.log('1' - 1); // here  - means subtract only no other thing is possible so the string '1' is coverted to the int 1 to do so
+
+//greet the user
+
+// let user = require('prompt-sync')() //this is used to accept the input from the user in terminal after installing a node js library by typing npm install prompt-sync
+
+// user = prompt("enter your name : ");
+
+// console.log(`good morning ${user}`);
+
+// Q4 accept and print the answer
+// let age = require('prompt-sync')()
+// age = Number(prompt("enter your name : "));
+
+// console.log(`good morning ${user}`);
+
+//Q5 swap two variables via 3 methods
+
+//1 using a third variable
+// let a = 10;
+// let b = 20;
+// console.log(a);
+// console.log(b);
+
+// let temp = a;
+// a = b;
+// b = temp;
+
+// console.log(a);
+// console.log(b);
+
+//2 using only two variables but using maths
+// let a = 10;
+// let b = 20;
+// console.log(a,b);
+
+// a = a+b;
+// b = a-b;
+// a = a-b;
+// console.log(a,b);
+
+
+//3 using destructuring array
+// let a = 10;
+// let b = 20;
+// console.log(a,b);
+
+// [a,b] =[b,a]
+// console.log(a,b);
